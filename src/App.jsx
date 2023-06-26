@@ -1,35 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  setTimeout(() => {
+    var canvas = document.querySelector("canvas"),
+      // Initialising the canvas
+      ctx = canvas.getContext("2d");
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    // Setting the width and height of the canvas
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Setting up the letters
+    var letters =
+      "ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ";
+    letters = letters.split("");
+
+    // Setting up the columns
+    var fontSize = 10,
+      columns = canvas.width / fontSize;
+
+    // Setting up the drops
+    var drops = [];
+    for (var i = 0; i < columns; i++) {
+      drops[i] = 1;
+    }
+
+    // Setting up the draw function
+    function draw() {
+      ctx.fillStyle = "rgba(0, 0, 0, .1)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      for (var i = 0; i < drops.length; i++) {
+        var text = letters[Math.floor(Math.random() * letters.length)];
+        ctx.fillStyle = "#FFF";
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+        drops[i]++;
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.95) {
+          drops[i] = 0;
+        }
+      }
+    }
+
+    // Loop the animation
+    setInterval(draw, 33);
+  }, 500);
+
+  return <canvas></canvas>;
 }
 
-export default App
+export default App;
