@@ -51,8 +51,7 @@ function home() {
           <h1 id='title'>Ygor Carmo</h1>
       </div>
       </div>
-          <canvas>
-          </canvas>
+          <canvas />
       </>
 }
 
