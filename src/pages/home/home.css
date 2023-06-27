@@ -8,8 +8,9 @@ body {
 canvas {
   display: block;
 }
-#title{
+.title {
   color: #fff;
+  text-align: center;
 }
 .homeContainer {
   position: absolute;
@@ -20,4 +21,3 @@ canvas {
   align-items: center; /** Y-axis align **/
   justify-content: center; /** X-axis align **/
 }
-
