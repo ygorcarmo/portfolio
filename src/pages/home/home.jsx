@@ -76,6 +76,7 @@ function Home() {
   return (
     <>
       <div className="homeContainer">
+        <canvas id="matrix" />
         <div className="text">
           <h1 className="title">Ygor Carmo</h1>
           <h2 className="title">
@@ -83,7 +84,6 @@ function Home() {
           </h2>
         </div>
       </div>
-      <canvas id="matrix" />
     </>
   );
 }

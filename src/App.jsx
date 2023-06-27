@@ -1,13 +1,12 @@
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages";
-import { Navbar } from "./components";
+import { NavTab } from "./components";
 
 function App() {
-  
-
-  return <>
-    <Navbar />
-  <Routes>
+  return (
+    <>
+      <NavTab />
+      <Routes>
         <Route path="/">
           <Route index element={<Home />} />
           {/* Using path="*"" means "match anything", so this route
@@ -16,7 +15,8 @@ function App() {
           {/* <Route path="*" element={<NoMatch />} /> */}
         </Route>
       </Routes>
-      </>;
+    </>
+  );
 }
 
 export default App;
