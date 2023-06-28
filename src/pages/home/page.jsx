@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import "./home.css";
+import "./style.css";
 import Typed from "typed.js";
 
 function Home() {

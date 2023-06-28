@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages";
-import { NavTab } from "./components";
+import { NavBar } from "./components";
 
 function App() {
   return (
     <>
-      <NavTab />
+      <NavBar />
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
