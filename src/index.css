@@ -6,6 +6,7 @@
   font-family: "Oxygen";
   src: local("Oxygen"),
     url("./assets/fonts/Oxygen/Oxygen-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 :root {
   --black: #0d0d0d;
