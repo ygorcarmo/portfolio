@@ -12,7 +12,7 @@ function Home() {
     setMatrix(document.getElementById("matrix"));
     const options = {
       strings: [
-        "Full Stack Software Developer.",
+        "Software Developer.",
         "DevOps Engineer.",
         "Tech Enthusiastic.",
       ],
