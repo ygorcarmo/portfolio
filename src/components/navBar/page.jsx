@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import "./style.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Navbar() {
   return (
@@ -26,13 +28,13 @@ function Navbar() {
         </li>
         <li>
           <Link href="#">
-            <span className="fab fa-linkedin" aria-hidden="true"></span>
+            <FontAwesomeIcon icon={faLinkedin} arial-hidden={true} />
             <span className="sr-only">LinkedIn</span>
           </Link>
         </li>
         <li>
           <Link href="#">
-            <span className="fab fa-github" aria-hidden="true"></span>
+            <FontAwesomeIcon icon={faGithub} arial-hidden={true} />
             <span className="sr-only">GitHub</span>
           </Link>
         </li>
