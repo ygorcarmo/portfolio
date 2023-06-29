@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { icon } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 function Navbar() {
   return (
@@ -10,10 +11,13 @@ function Navbar() {
         <li>
           <h1>
             <Link href="#">
-              <span className="fas fa-code" aria-hidden="true">
-                {" "}
+              <span>
+                <FontAwesomeIcon
+                  icon={icon({ name: "code" })}
+                  aria-hidden={"true"}
+                />
               </span>
-              <span>Ygor Carmo</span>
+              <span> Ygor Carmo</span>
             </Link>
           </h1>
         </li>
