@@ -28,13 +28,13 @@ function Navbar() {
         </li>
         <li>
           <Link href="#">
-            <FontAwesomeIcon icon={faLinkedin} arial-hidden={true} />
+            <FontAwesomeIcon icon={faLinkedin} arial-hidden={"true"} />
             <span className="sr-only">LinkedIn</span>
           </Link>
         </li>
         <li>
           <Link href="#">
-            <FontAwesomeIcon icon={faGithub} arial-hidden={true} />
+            <FontAwesomeIcon icon={faGithub} arial-hidden={"true"} />
             <span className="sr-only">GitHub</span>
           </Link>
         </li>
