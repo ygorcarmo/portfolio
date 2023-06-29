@@ -50,7 +50,7 @@ nav [class*="fa-"]:hover {
 }
 
 .button {
-  background-color: var(--medium-grey);
+  background-color: var(--dark-grey);
   color: white;
   padding: 0.5rem;
   border-radius: 5px;
