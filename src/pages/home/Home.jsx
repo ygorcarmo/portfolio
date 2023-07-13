@@ -34,7 +34,7 @@ function Home() {
     <>
       <div className="homeContainer">
         <Matrix />
-        <div className="text">
+        <div className="hero-text">
           <h1 className="title">Ygor Carmo</h1>
           <h2 className="title">
             I&apos;m <span style={{ whiteSpace: "pre" }} ref={el} />

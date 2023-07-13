@@ -43,7 +43,7 @@ export default function Matrix() {
 
       for (let i = 0; i < drops.length; i++) {
         const text = alphabet.charAt(
-          Math.floor(Math.random() * alphabet.length)
+          Math.floor(Math.random() * alphabet.length),
         );
 
         context.fillText(text, i * fontSize, drops[i] * fontSize);

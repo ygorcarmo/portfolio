@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Home } from "./pages";
+import { Home, Projects } from "./pages";
 import { NavBar } from "./components";
 
 function App() {
@@ -7,13 +7,8 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path="/">
-          <Route index element={<Home />} />
-          {/* Using path="*"" means "match anything", so this route
-                acts like a catch-all for URLs that we don't have explicit
-                routes for. */}
-          {/* <Route path="*" element={<NoMatch />} /> */}
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </>
   );
