@@ -1,13 +1,13 @@
 function Projects() {
   return (
-    <div className="section-dkblue">
+    <div class="section-dkblue">
       <section id="projects">
-        <h2>Projects I&apos;m proud of</h2>
+        <h2>Projects I'm proud of</h2>
         <article>
-          <div className="text">
+          <div class="text">
             <h4>Latest Project</h4>
             <h3>Wall of Wonder</h3>
-            <p className="blackbox">
+            <p class="blackbox">
               Description of the project. This should be fairly concise while
               also describing the key components that you developed or worked
               on. It can be as long as you need it to be but should at least be
@@ -31,11 +31,11 @@ function Projects() {
             alt="Screenshot of the Wall of Wonder."
           />
         </article>
-        <article className="reverse">
-          <div className="text">
+        <article class="reverse">
+          <div class="text">
             <h4>Latest Project</h4>
             <h3>Wall of Wonder</h3>
-            <p className="blackbox">
+            <p class="blackbox">
               Description of the project. This should be fairly concise while
               also describing the key components that you developed or worked
               on. It can be as long as you need it to be but should at least be
@@ -60,10 +60,10 @@ function Projects() {
           />
         </article>
         <article>
-          <div className="text">
+          <div class="text">
             <h4>Latest Project</h4>
             <h3>Wall of Wonder</h3>
-            <p className="blackbox">
+            <p class="blackbox">
               Description of the project. This should be fairly concise while
               also describing the key components that you developed or worked
               on. It can be as long as you need it to be but should at least be

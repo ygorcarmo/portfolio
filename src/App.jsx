@@ -1,16 +1,16 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, Projects } from "./pages";
-import { NavBar } from "./components";
+import Layout from "./components/Layout";
+import AppRoutes from "./AppRoutes";
 
 function App() {
   return (
-    <>
-      <NavBar />
+    <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
+        {AppRoutes.map((route) => (
+          <Route key={route.id} {...route} />
+        ))}
       </Routes>
-    </>
+    </Layout>
   );
 }
 
