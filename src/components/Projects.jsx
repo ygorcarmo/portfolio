@@ -18,13 +18,14 @@ function Projects() {
               >
                 Frontend Masters
               </a>{" "}
-              API. You can find the &nbsp;
+              API. You can find the &nbsp; rel="noopener noreferrer"
               <a href="https://adopt-me.ygor.tech/" target="_blank">
                 live app here
               </a>
               , and{" "}
               <a
                 href="https://github.com/ygorcarmo/adopt-me/tree/main"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 github repo
@@ -46,7 +47,11 @@ function Projects() {
             <p class="blackbox">
               This project is my documented journey towards learning Arduino.
               You can find the repo at &nbsp;
-              <a href="https://github.com/ygorcarmo/Arduino-101/tree/main">
+              <a
+                href="https://github.com/ygorcarmo/Arduino-101/tree/main"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 github
               </a>
               .
@@ -60,7 +65,7 @@ function Projects() {
         </article>
         <article>
           <div class="text">
-            <h4>Latest Project</h4>
+            <h4>Grid Flexbox v2</h4>
             <p class="blackbox">
               This is a vite preact webapp containing my learning form the CSS
               Grid & Flexbox for Responsive Layouts tought by Final Personal
@@ -73,13 +78,18 @@ function Projects() {
                 Frontend Masters
               </a>
               . You can find the live website{" "}
-              <a href="https://grid-flex.ygor.tech/" target="_blank">
+              <a
+                href="https://grid-flex.ygor.tech/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 here
               </a>
               , and the code at{" "}
               <a
                 href="https://github.com/ygorcarmo/grid-flexbox-v2"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 github
               </a>
