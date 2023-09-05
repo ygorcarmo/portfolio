@@ -4,7 +4,7 @@ function Navbar() {
       <ul>
         <li>
           <h1>
-            <a href="index.html">
+            <a href="/">
               <span class="fas fa-code" aria-hidden="true">
                 {" "}
               </span>
