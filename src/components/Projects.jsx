@@ -67,7 +67,7 @@ function Projects() {
           <div class="text">
             <h4>Grid Flexbox v2</h4>
             <p class="blackbox">
-              This is a vite preact webapp containing my learning form the CSS
+              This is a vite preact webapp containing my learnings form the CSS
               Grid & Flexbox for Responsive Layouts tought by Final Personal
               Page for Grid FlexBox v2 from{" "}
               <a
