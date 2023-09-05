@@ -1,3 +1,6 @@
+import adoptMe from "../assets/img/adopt-me.png";
+import arduino from "../assets/img/arduino-logo.png";
+
 function Projects() {
   return (
     <div class="section-dkblue">
@@ -5,81 +8,90 @@ function Projects() {
         <h2>Projects I'm proud of</h2>
         <article>
           <div class="text">
-            <h4>Latest Project</h4>
-            <h3>Wall of Wonder</h3>
+            <h4>Adopt Me</h4>
             <p class="blackbox">
-              Description of the project. This should be fairly concise while
-              also describing the key components that you developed or worked
-              on. It can be as long as you need it to be but should at least be
-              a few sentences long. Be sure to include specific links anywhere
-              in the description. A link looks like
-              <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
-                this
+              This is a sample of a pet adoption website linked to the{" "}
+              <a
+                href="https://frontendmasters.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Frontend Masters
+              </a>{" "}
+              API. You can find the &nbsp;
+              <a href="https://adopt-me.ygor.tech/" target="_blank">
+                live app here
               </a>
-              , and multiple links look <a href="#">like this</a> and
-              <a href="#">like this</a>.
+              , and{" "}
+              <a
+                href="https://github.com/ygorcarmo/adopt-me/tree/main"
+                target="_blank"
+              >
+                github repo
+              </a>
+              .
             </p>
             <h4>Technologies used include:</h4>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SVG</li>
+              <li>React</li>
+              <li>React Query</li>
+              <li>Vite</li>
             </ul>
           </div>
-          <img
-            src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
-            alt="Screenshot of the Wall of Wonder."
-          />
+          <img src={adoptMe} alt="Screenshot of the Adopt Me website" />
         </article>
         <article class="reverse">
           <div class="text">
-            <h4>Latest Project</h4>
-            <h3>Wall of Wonder</h3>
+            <h4>Arduino 101</h4>
             <p class="blackbox">
-              Description of the project. This should be fairly concise while
-              also describing the key components that you developed or worked
-              on. It can be as long as you need it to be but should at least be
-              a few sentences long. Be sure to include specific links anywhere
-              in the description. A link looks like
-              <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
-                this
+              This project is my documented journey towards learning Arduino.
+              You can find the repo at &nbsp;
+              <a href="https://github.com/ygorcarmo/Arduino-101/tree/main">
+                github
               </a>
-              , and multiple links look <a href="#">like this</a> and
-              <a href="#">like this</a>.
+              .
             </p>
             <h4>Technologies used include:</h4>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>SVG</li>
+              <li>Arduino</li>
             </ul>
           </div>
-          <img
-            src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
-            alt="Screenshot of the Wall of Wonder."
-          />
+          <img src={arduino} alt="Arduino Logo." />
         </article>
         <article>
           <div class="text">
             <h4>Latest Project</h4>
-            <h3>Wall of Wonder</h3>
             <p class="blackbox">
-              Description of the project. This should be fairly concise while
-              also describing the key components that you developed or worked
-              on. It can be as long as you need it to be but should at least be
-              a few sentences long. Be sure to include specific links anywhere
-              in the description. A link looks like
-              <a href="https://frontendmasters.github.io/grid-flexbox-v2/">
-                this
+              This is a vite preact webapp containing my learning form the CSS
+              Grid & Flexbox for Responsive Layouts tought by Final Personal
+              Page for Grid FlexBox v2 from{" "}
+              <a
+                href="https://frontendmasters.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Frontend Masters
               </a>
-              , and multiple links look <a href="#">like this</a> and
-              <a href="#">like this</a>.
+              . You can find the live website{" "}
+              <a href="https://grid-flex.ygor.tech/" target="_blank">
+                here
+              </a>
+              , and the code at{" "}
+              <a
+                href="https://github.com/ygorcarmo/grid-flexbox-v2"
+                target="_blank"
+              >
+                github
+              </a>
+              .
             </p>
             <h4>Technologies used include:</h4>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
               <li>SVG</li>
+              <li>Vite</li>
+              <li>Preact</li>
             </ul>
           </div>
           <img
