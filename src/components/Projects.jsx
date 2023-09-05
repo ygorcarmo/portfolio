@@ -1,5 +1,6 @@
 import adoptMe from "../assets/img/adopt-me.png";
 import arduino from "../assets/img/arduino-logo.png";
+import gridFlex from "../assets/img/grid-flexbox-v2.png";
 
 function Projects() {
   return (
@@ -104,10 +105,7 @@ function Projects() {
               <li>Preact</li>
             </ul>
           </div>
-          <img
-            src="https://assets.codepen.io/296057/fem-gettingstartedcss-ch5-1.png"
-            alt="Screenshot of the Wall of Wonder."
-          />
+          <img src={gridFlex} alt="Screenshot of the Wall of Wonder." />
         </article>
       </section>
     </div>
